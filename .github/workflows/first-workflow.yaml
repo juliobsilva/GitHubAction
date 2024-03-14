@@ -1,0 +1,14 @@
+name: first-worflow
+run-name: Primeiro Workflow
+
+on: 
+ - push
+
+jobs:
+  run-shell-command:
+   runs-on: ubuntu-latest
+   steps:
+    - name: Hellow Word
+      run: echo "Hello Word"
+
+
